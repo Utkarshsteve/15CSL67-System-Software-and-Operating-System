@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
-int l,i,j,z;
+int l=0,i=0,j=0,z;
 char ip[10],ac[20],act[10],st[10];
 void check();
 void main()
@@ -59,7 +59,7 @@ void check()
                 }
                 else if(st[z]=='F')
                 {
-                        st[z]=='T';
+                        st[z]='T';
                         printf("\n$%s\t%s$\t%sT->F",st,ip,ac);
                 
                 }
