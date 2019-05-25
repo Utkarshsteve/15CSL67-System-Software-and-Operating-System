@@ -20,7 +20,7 @@ void main(int argc,char*argv[])
         {
                 printf("Invalid Expression\n");
         }
-        if(m=n+1)
+        else if(m=n+1)
         {
                 printf("Valid Expression\n");
                 printf("The No. of identifiers: %d",n+1);
